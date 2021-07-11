@@ -42,10 +42,9 @@
 	            <a href="#" class="  left-icon"><i class="fa-2x far fa-moon"></i></a>
 	            <a href="#" class=" "><img class="l-img" src="image/user.jpg"></a>
             </div>
-        </div>
-        <!-- navigation top-->
+        </div> 
         <!--navigation scroll-->
-        <nav class="nav"id="nav"> 
+        <nav class="nav lg:shadow-none h-screen lg:p-4 w-72 custom-scrollbar z-10 scroll-message" id="nav" > 
         	<div class="div-nav div-1">
 		      <p class="p-nav">New Feeds</p>
 		      <div class="div-a">
@@ -137,147 +136,273 @@
 
 		    </div>
         </nav>
-        <!--navigation scroll-->
-        <main class="bd-main">
-        	<div class="div-main col-lg-6">
-				<div class="div-p central-meta postbox">
-					<span class="create-post">Create post</span>
-					<div class="new-postbox">
-						<figure>							
-							<img class="avata" src="image/user.jpg"></a>
-						</figure>
-						<div class="n">
-							<form method="post">
-								<textarea rows="2" placeholder="What's on you mind?"></textarea>
-							</form>
-							<div class="div-upfile">
-								<a class="a-up text-center inline-block">
-					        	<i class="cl-icon1 fas fa-video"></i>
-					          	<span class="ml-2 font-medium ">Live Video</span>
-					        </a>
-					        <a class="a-up text-center inline-block">
-					        	<i class="cl-icon2 far fa-image"></i>
-					          	<span class="ml-2 font-medium ">Photo/Video</span>
-					        </a>
-					        <a class="a-up text-center inline-block">
-					        	<i class="cl-icon3 fas fa-camera-retro"></i>
-					          	<span class="ml-2 font-medium ">Feeling/Ativity</span>
-					        </a>
-								
+        <!--main -->
+        <div class="bd-main">
+        	<div class="flex">
+        		<div>
+		        	<div class="div-main ">
+						<div class="div-p central-meta postbox">
+							<span class="create-post">Create post</span>
+							<div class="new-postbox">
+								<figure>							
+									<img class="avt" src="image/user.jpg"></a>
+								</figure>
+								<div class="n">
+									<form method="post">
+										<textarea class="text-in" rows="2" placeholder="What's on you mind?"></textarea>
+									</form>
+									<div class="div-upfile">
+										<a class="a-up text-center inline-block">
+								        	<i class="cl-icon1 fas fa-video"></i>
+								          	<span class="ml-2 font-medium ">Live Video</span>
+							        	</a>
+							        	<a class="a-up text-center inline-block">
+								        	<i class="cl-icon2 far fa-image"></i>
+								          	<span class="ml-2 font-medium ">Photo/Video</span>
+							        	</a>
+							        	<a class="a-up text-center inline-block">
+								        	<i class="cl-icon3 fas fa-camera-retro"></i>
+								          	<span class="ml-2 font-medium ">Feeling/Ativity</span>
+							        	</a>
+									</div>
+								</div>	
 							</div>
-							
-						</div>	
-					</div>
-				</div>
-			</div>
-			<div class="div-main2 col-lg-6">
-				<div class="div-p central-meta postbox">
-					
-					<div class="new-postbox2">
-						<div class="div-av">
-							<figure>							
-								<img class="avata" src="image/user.jpg"></a>
-							</figure>
-							<span class="name-av">Phạm Văn Nghĩa</span>	
-							<a href="#" class="av-i br leading-10 menu-icon"><i class="fas fa-ellipsis-h"></i></a>	
-							
-						</div>	
 						</div>
-						
-
-						<div class="n">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed rhoncus.
-							</p>
-							
-							<img class="img1" src="image/test.jpg">
-							<div class="div-like">
-								 <a class="a-up text-center inline-block">
-					        		<i class="like-icon far fa-thumbs-up"></i>
-					        		<i class="heart-icon far fa-heart"></i>
-					          		<span class="s-like ml-2 font-medium ">2.8K Like</span>
-					          		
-					        	</a>
-								<a class="a-up text-center inline-block">
-					        		<i class="cm-icon far fa-comment"></i>
-					          		<span class="s-like ml-2 font-medium ">22 Comment</span>
-					          		
-					        	</a>
-					        	<a class="share a-up text-center inline-block">
-					        		<i class="cm-icon fas fa-share-alt"></i>	
-					          		<span class="s-like ml-2 font-medium ">Share</span>
-					          		
-					        	</a>
-					        	
+					</div>
+		        	<div class="div-main ">
+						<div class="div-p central-meta postbox">
+							<div class="div-av">
+									<figure>							
+										<img class="avata" src="image/user.jpg"></a>
+									</figure>
+									<div class="text-left text-sm font-bold ml-3">Phạm Văn Nghĩa
+										<p class="text-xs font-normal text-gray-400">1 minutes ago</p>
+						            </div>
+									<a href="#" class="av-i br leading-10 menu-icon"><i class="fas fa-ellipsis-h"></i></a>	
+								</div>	
+							<div class="new-postbox-2">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed rhoncus.
+								</p>
+								<img class="img1" src="image/test.jpg">
+								<div class="div-like">
+									 <a class="a-up text-center inline-block">
+						        		<i class="like-icon far fa-thumbs-up"></i>
+						        		<i class="heart-icon far fa-heart"></i>
+						          		<span class="s-like ml-2 font-medium ">2.8K Like</span>
+						        	</a>
+									<a class="a-up text-center inline-block">
+						        		<i class="cm-icon far fa-comment"></i>
+						          		<span class="s-like ml-2 font-medium ">22 Comment</span>
+						        	</a>
+						        	<a class="share a-up text-center inline-block">
+						        		<i class="cm-icon fas fa-share-alt"></i>	
+						          		<span class="s-like ml-2 font-medium ">Share</span>
+						        	</a>
+								</div>
 							</div>
-
-								
 						</div>
-							
 					</div>
-				</div>
-			</div>
-			<div class="div-main2 col-lg-6">
-				<div class="div-p central-meta postbox">
-					
-					<div class="new-postbox2">
-						<div class="div-av">
-							<figure>							
-								<img class="avata" src="image/user.jpg"></a>
-							</figure>
-							<span class="name-av">Phạm Văn Nghĩa</span>	
-							<a href="#" class="av-i br leading-10 menu-icon"><i class="fas fa-ellipsis-h"></i></a>	
-							
-						</div>	
-						</div>
-						
-
-						<div class="n">
-							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed rhoncus.
-							</p>
-							
-							<img class="img1" src="image/post.jpg">
-							<div class="div-like">
-								 <a class="a-up text-center inline-block">
-					        		<i class="like-icon far fa-thumbs-up"></i>
-					        		<i class="heart-icon far fa-heart"></i>
-					          		<span class="s-like ml-2 font-medium ">2.8K Like</span>
-					          		
-					        	</a>
-								<a class="a-up text-center inline-block">
-					        		<i class="cm-icon far fa-comment"></i>
-					          		<span class="s-like ml-2 font-medium ">22 Comment</span>
-					          		
-					        	</a>
-					        	<a class="share a-up text-center inline-block">
-					        		<i class="cm-icon fas fa-share-alt"></i>	
-					          		<span class="s-like ml-2 font-medium ">Share</span>
-					          		
-					        	</a>
-					        	
+					<div class="div-main ">
+						<div class="div-p central-meta postbox">
+							<div class="div-av">
+									<figure>							
+										<img class="avata" src="image/user.jpg"></a>
+									</figure>
+									<div class="text-left text-sm font-bold ml-3">Phạm Văn Nghĩa
+										<p class="text-xs font-normal text-gray-400">1 minutes ago</p>
+						            </div>
+									<a href="#" class="av-i br leading-10 menu-icon"><i class="fas fa-ellipsis-h"></i></a>	
+								</div>	
+							<div class="new-postbox-2">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed rhoncus.
+								</p>
+								<div class="div-like">
+									 <a class="a-up text-center inline-block">
+						        		<i class="like-icon far fa-thumbs-up"></i>
+						        		<i class="heart-icon far fa-heart"></i>
+						          		<span class="s-like ml-2 font-medium ">2.8K Like</span>
+						        	</a>
+									<a class="a-up text-center inline-block">
+						        		<i class="cm-icon far fa-comment"></i>
+						          		<span class="s-like ml-2 font-medium ">22 Comment</span>
+						        	</a>
+						        	<a class="share a-up text-center inline-block">
+						        		<i class="cm-icon fas fa-share-alt"></i>	
+						          		<span class="s-like ml-2 font-medium ">Share</span>
+						        	</a>
+								</div>
 							</div>
-
-								
 						</div>
-							
 					</div>
-				</div>
-			</div>
+					<div class="div-main ">
+						<div class="div-p central-meta postbox">
+							<div class="div-av">
+								<figure>							
+									<img class="avata" src="image/user.jpg"></a>
+								</figure>
+								<div class="text-left text-sm font-bold ml-3">Phạm Văn Nghĩa
+									<p class="text-xs font-normal text-gray-400">1 minutes ago</p>
+					            </div>
+								<a href="#" class="av-i br leading-10 menu-icon"><i class="fas fa-ellipsis-h"></i></a>	
+							</div>	
+							<div class="new-postbox-2">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla dolor, ornare at commodo non, feugiat non nisi. Phasellus faucibus mollis pharetra. Proin blandit ac massa sed rhoncus.
+								</p>
+								<img class="img1" src="image/post.jpg">
+								<div class="div-like">
+									 <a class="a-up text-center inline-block">
+						        		<i class="like-icon far fa-thumbs-up"></i>
+						        		<i class="heart-icon far fa-heart"></i>
+						          		<span class="s-like ml-2 font-medium ">2.8K Like</span>
+						        	</a>
+									<a class="a-up text-center inline-block">
+						        		<i class="cm-icon far fa-comment"></i>
+						          		<span class="s-like ml-2 font-medium ">22 Comment</span>
+						        	</a>
+						        	<a class="share a-up text-center inline-block">
+						        		<i class="cm-icon fas fa-share-alt"></i>	
+						          		<span class="s-like ml-2 font-medium ">Share</span>
+						        	</a>
+								</div>
+							</div>
+						</div>
+					</div>
+        		</div>
+	        	<div class="div-main-r">
+		        	<div class="div-r">
+				        <div class="div-r-1 p-4 bg-white w-full min-w-full">
+				         	<div class="flex justify-between mt-2">
+				            	<p class="text-sm font-bold">Friend Request</p>
+				            	<p class="text-xs font-bold text-blue-600 cursor-pointer">See all</p>
+				         	</div>
+				          	<div class="mt-6">
+					            <div class="mt-6">
+					              <div class="flex justify-start">
+					                <img class="w-10 h-10 rounded-full object-cover" src="image/user.jpg">
+					                <div class="text-center text-sm font-bold ml-3">Nguyễn Đăng Định<p class="text-xs font-normal text-gray-500">12 mutual friends
+					                  </p>
+					                </div>
+					              </div>
+				              		<div class="mt-4 flex items-center flex-grow">
+				                		<button class="text-sm bg-gradient-to-r from-green-600 via-green-500 cl-cl rounded-3xl px-6 py-2 text-white font-medium ">Confirm</button>
+				                		<button class="ml-2 bg-gray-200 text-gray-600 rounded-3xl text-sm px-4 py-2 font-medium " style="min-width: 100px;">Delete</button>
+				              		</div>
+				            	</div>
+			         		</div>
+			         		<div class="mt-6">
+					            <div class="mt-6">
+					              <div class="flex justify-start">
+					                <img class="w-10 h-10 rounded-full object-cover" src="image/user.jpg">
+					                <div class="text-center text-sm font-bold ml-3">Bùi Phú Ân<p class="text-xs font-normal text-gray-500">12 mutual friends
+					                  </p>
+					                </div>
+					              </div>
+				              		<div class="mt-4 flex items-center flex-grow">
+				                		<button class="text-sm bg-gradient-to-r from-green-600 via-green-500 cl-cl rounded-3xl px-6 py-2 text-white font-medium ">Confirm</button>
+				                		<button class="ml-2 bg-gray-200 text-gray-600 rounded-3xl text-sm px-4 py-2 font-medium " style="min-width: 100px;">Delete</button>
+				              		</div>
+				            	</div>
+			         		</div>
+			         		<div class="mt-6">
+					            <div class="mt-6">
+					              <div class="flex justify-start">
+					                <img class="w-10 h-10 rounded-full object-cover" src="image/user.jpg">
+					                <div class="text-center text-sm font-bold ml-3">Bùi Nguyễn Ngọc Huy<p class="text-xs font-normal text-gray-500">12 mutual friends
+					                  </p>
+					                </div>
+					              </div>
+				              		<div class="mt-4 flex items-center flex-grow">
+				                		<button class="text-sm bg-gradient-to-r from-green-600 via-green-500 cl-cl rounded-3xl px-6 py-2 text-white font-medium ">Confirm</button>
+				                		<button class="ml-2 bg-gray-200 text-gray-600 rounded-3xl text-sm px-4 py-2 font-medium " style="min-width: 100px;">Delete</button>
+				              		</div>
+				            	</div>
+			         		</div>
+			       		</div>
+	     			</div>
+	     			<div class="div-r">
+				        <div class="div-r-1 p-4 bg-white w-full min-w-full">
+				         	<div class="flex justify-between mt-2">
+				            	<p class="text-sm font-bold">Confirm Friend</p>
+				            	<p class="text-xs font-bold text-blue-600 cursor-pointer">See all</p>
+				         	</div>
+				          	<div class="mt-6">
+					            <div class="br-r mt-6">
+					              <div class="flex justify-start">
+					                <img class="w-10 h-10 rounded-full object-cover" src="image/user.jpg">
+					                <div class="text-center text-sm font-bold ">Nguyễn Đăng Định
+					                	<p class="text-xs font-normal text-gray-500">12 mutual friends</p>
+					                </div>
+					                <a href="#" class="icon-r"><i class="fas fa-chevron-right"></i></a>
+					              </div>
+				            	</div>
+			         		</div>
+			         		
+			         		<div class="mt-6">
+					            <div class="br-r mt-6">
+					              <div class="flex justify-start">
+					                <img class="w-10 h-10 rounded-full object-cover" src="image/user.jpg">
+					                <div class="text-center text-sm font-bold ">Bùi Phú Ân
+					                	<p class="text-xs font-normal text-gray-500">12 mutual friends</p>
+					                </div>
+					                <a href="#" class="icon-r"><i class="fas fa-chevron-right"></i></a>
+					              </div>
+				            	</div>
+			         		</div>
+			         		<div class="mt-6">
+					            <div class="br-r mt-6">
+					              <div class="flex justify-start">
+					                <img class="w-10 h-10 rounded-full object-cover" src="image/user.jpg">
+					                <div class="text-center text-sm font-bold ">Ngô Thanh Tuấn
+					                	<p class="text-xs font-normal text-gray-500">12 mutual friends</p>
+					                </div>
+					                <a href="#" class="icon-r"><i class="fas fa-chevron-right"></i></a>
+					              </div>
+				            	</div>
+			         		</div>
+			       		</div>
+	     			</div>
+	     			<div class="div-r">
+				        <div class="div-r-1 p-4 bg-white w-full min-w-full">
+				         	<div class="flex justify-between mt-2">
+				            	<p class="text-sm font-bold">Suggest Pages</p>
+				            	<p class="text-xs font-bold text-blue-600 cursor-pointer">See all</p>
+				         	</div>
+				          	<div class="mt-6">
+					            <div class="br-r mt-6">
+					              <img class="img-br" src="image/like.jpg">
+					              <a class="a-like text-center inline-block">
+						        		<i class="fas fa-external-link-alt"></i>
+						        		Like Page
+						        	</a>
+				            	</div>
+			         		</div>
+			         		
+			         		<div class="mt-6">
+					            <div class="br-r mt-6">
+					              <img class="img-br" src="image/like.jpg">
+					              <a class="a-like text-center inline-block">
+						        		<i class="fas fa-external-link-alt"></i>
+						        		Like Page
+						        	</a>
+				            	</div>
+			         		</div>
+			       		</div>
+	     			</div>
 
-        	
-        </main>
+
+	    		</div>	
 
 
-
-
-
+        	</div>
+    	</div>
+    	<!--end main-->
 
 
 
     </div>
-
-
 	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
